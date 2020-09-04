@@ -30,6 +30,12 @@ dotfiles:
   f_bash_aliases:
     src: bash_aliases
     dst: ~/.bash_aliases
+  d_i3:
+    src: config/regolith/i3
+    dst: ~/.config/regolith/i3
+  d_i3xrocks:
+    src: config/regolith/i3xrocks
+    dst: ~/.config/regolith/i3xrocks
 variables:
   git_email: amir@eldor.dev
 profiles:
@@ -44,6 +50,8 @@ profiles:
     - f_plug.vim
     - f_zshenv
     - f_bash_aliases
+    - d_i3
+    - d_i3xrocks
   zencity:
     variables:
       git_email: amire@zencity.io
