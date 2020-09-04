@@ -24,6 +24,11 @@ dotfiles:
   f_plug.vim:
     src: config/nvim/autoload/plug.vim
     dst: ~/.config/nvim/autoload/plug.vim
+  f_zshenv:
+    src: zshenv
+    dst: ~/.zshenv
+variables:
+  git_email: amir@eldor.dev
 profiles:
   home:
     dotfiles:
@@ -34,3 +39,7 @@ profiles:
     - f_init.vim
     - f_plugins.vim
     - f_plug.vim
+    - f_zshenv
+  zencity:
+    variables:
+      git_email: amire@zencity.io

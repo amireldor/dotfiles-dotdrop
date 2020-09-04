@@ -1,5 +1,5 @@
 [user]
-	email = amir@eldor.dev
+	email = {{@@ git_email @@}}
 	name = Amir Eldor
 [core]
 	excludesfile = ~/.gitignore
