@@ -43,3 +43,5 @@ profiles:
   zencity:
     variables:
       git_email: amire@zencity.io
+      include:
+        - home
