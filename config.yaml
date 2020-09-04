@@ -1,0 +1,20 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  f_gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
+  f_gitignore:
+    src: gitignore
+    dst: ~/.gitignore
+profiles:
+  home:
+    dotfiles:
+    - f_zshrc
+    - f_gitconfig
+    - f_gitignore

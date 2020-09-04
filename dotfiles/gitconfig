@@ -1,0 +1,5 @@
+[user]
+	email = amir@eldor.dev
+	name = Amir Eldor
+[core]
+	excludesfile = ~/.gitignore
