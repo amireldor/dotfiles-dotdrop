@@ -12,9 +12,25 @@ dotfiles:
   f_gitignore:
     src: gitignore
     dst: ~/.gitignore
+  f_coc-settings.json:
+    src: config/nvim/coc-settings.json
+    dst: ~/.config/nvim/coc-settings.json
+  f_init.vim:
+    src: config/nvim/init.vim
+    dst: ~/.config/nvim/init.vim
+  f_plugins.vim:
+    src: config/nvim/plugins.vim
+    dst: ~/.config/nvim/plugins.vim
+  f_plug.vim:
+    src: config/nvim/autoload/plug.vim
+    dst: ~/.config/nvim/autoload/plug.vim
 profiles:
   home:
     dotfiles:
     - f_zshrc
     - f_gitconfig
     - f_gitignore
+    - f_coc-settings.json
+    - f_init.vim
+    - f_plugins.vim
+    - f_plug.vim
