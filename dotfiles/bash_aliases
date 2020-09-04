@@ -1,0 +1,3 @@
+alias dokkufun="ssh dokku@fun.cesspool.games"
+alias tigs="tig status"
+alias dotdrop="$HOME/.amiros/dotdrop.sh --cfg $HOME/.amiros/config.yaml"

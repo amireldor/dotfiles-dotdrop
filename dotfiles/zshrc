@@ -98,10 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias dokkufun="ssh dokku@fun.cesspool.games"
-alias tigs="tig status"
-alias dotdrop="$HOME/.amiros/dotdrop.sh --cfg $HOME/.amiros/config.yaml"
-
+[ -f ~/.bash_aliases ] && source ~/.bash_aliases
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 set vi -o
